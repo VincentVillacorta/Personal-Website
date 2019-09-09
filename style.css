@@ -1,0 +1,13 @@
+body{
+  background-color: beige;
+}
+.container-fluid {
+  font-family: 'Open Sans', sans-serif;
+  background-color: transparent;
+}
+
+.homepage-text {
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 220px;
+  margin-top: 200px;
+}
