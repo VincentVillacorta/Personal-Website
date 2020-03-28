@@ -1,3 +1,74 @@
+<<<<<<< HEAD
+body {
+}
+
+@keyframes FadeIn {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+
+}
+
+@keyframes hide {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 0;
+      }
+
+}
+
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+}
+
+.container-fluid {
+  font-family: 'Open Sans', sans-serif;
+  background-color: transparent;
+}
+
+.animated-name h1{
+  font-size: 110px;
+  text-align: center;
+  text-align-last: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 250px;
+  animation-name: FadeIn;
+  animation-duration: 1s;
+}
+
+.animated-title h2{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  font-size: 20px;
+  font-family: monaco, Consolas, "Lucida Console", monospace;
+  width: auto;
+  overflow: hidden;
+  border-right: .15em solid black;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .20em;
+  animation: hide 1s,
+       typing 3.5s 1s steps(60, end),
+			 blink-caret .75s 1s step-end infinite;
+}
+=======
 body {
   animation: fade 5s infinite; /* animation-name followed by duration in seconds*/
      /* you could also use milliseconds (ms) or something like 2.5s */
@@ -74,3 +145,4 @@ body {
   animation-delay: 1s;
   animation-duration: 1s;
 }
+>>>>>>> bf1a3be182d11eaa4c058abc6bb82030da38970d
