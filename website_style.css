@@ -2,21 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-#home {
-  padding-top: 250px;
-  padding-bottom: 360px;
-}
-
-#about {
-  padding-top: 250px;
-  padding-bottom: 250px;
-}
-
-#contact {
-  padding-top: 250px;
-  padding-bottom: 250px;
-  color: white;
-}
 @keyframes FadeIn {
       0% {
         opacity: 0;
@@ -48,7 +33,7 @@ html {
   from, to { border-color: transparent }
   50% { border-color: black; }
 }
-
+/* NAVBAR */
 .container-fluid {
   font-family: 'Open Sans', sans-serif;
   color: white;
@@ -57,6 +42,12 @@ html {
 .navbar-nav > li{
   padding-left:10px;
   padding-right:10px;
+}
+/* HOME */
+
+#home {
+  padding-top: 250px;
+  padding-bottom: 360px;
 }
 
 .animated-name h1{
@@ -87,4 +78,41 @@ html {
   animation: hide 1s,
        typing 3.5s 1s steps(60, end),
 			 blink-caret .75s 1s step-end infinite;
+}
+/* ABOUT */
+#about {
+  padding-top: 300px;
+}
+img {
+  position: relative;
+  top: -210px;
+  left: 30px;
+  max-width:300px;
+  height:auto;
+}
+.col-lg-8 h2{
+  position: relative;
+  top: -400px;
+  left: -20px;
+  font-size: 100px;
+}
+
+.about-text{
+  position: relative;
+  top: -400px;
+  left: -20px;
+  font-size: 20px;
+}
+
+/* CONTACT */
+.col-lg-8 h3{
+  position: relative;
+  top: -30px;
+  left: -360px;
+  font-size: 50px;
+}
+#contact {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
 }
