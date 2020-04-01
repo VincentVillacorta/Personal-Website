@@ -10,9 +10,10 @@
   </head>
 
   <body class="body">
-      <div class ="container-fluid">
-          <div class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: transparent">
 
+<!-- NAVBAR -->
+      <div class ="container-fluid">
+          <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="background-color: #000000;">
 
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                   <span class="navbar-toggler-icon"></span>
@@ -20,28 +21,54 @@
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                        <a class="nav-link"  href="website.html">Home</a>
+                      <li class="nav-item-home">
+                        <a class="nav-link"  href="#home">Home</a>
                       </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link" href="about.html">About</a>
+                      <li class="nav-item-about">
+                        <a class="nav-link" href="#about">About</a>
                       </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                      <li class="nav-item-contact">
+                        <a class="nav-link" href="#contact">Contact</a>
                       </li>
-                      <li class="nav-item">
+                      <li class="nav-item-resume">
                         <a class="nav-link" href="Resume.pdf">Resume</a>
                       </li>
                   </ul>
               </div>
             </div>
         </div>
-        <div class="animated-name">
-            <h1>Vincent Villacorta</h1>
-        <div class="animated-title">
-            <h2>Software Developer</h2>
-        </div>
-        </div>
+
+<!-- HOME -->
+          <section id="home">
+            <div class="animated-name flex-container">
+                <h1>Vincent Villacorta</h1>
+                  <div class="animated-title">
+                    <h2>Software Developer</h2>
+                  </div>
+            </div>
+          </section>
+<!-- ABOUT -->
+        <section id="about" class="bg-light">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2>About Me</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+<!-- CONTACT -->
+        <section id="contact" class="bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <h2>Contact</h2>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+              </div>
+            </div>
+          </div>
+        </section>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
