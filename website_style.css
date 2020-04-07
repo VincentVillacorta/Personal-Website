@@ -82,6 +82,7 @@ html {
 /* ABOUT */
 #about {
   padding-top: 300px;
+  padding-bottom: -40px;
 }
 img {
   position: relative;
@@ -92,16 +93,23 @@ img {
 }
 .col-lg-8 h2{
   position: relative;
-  top: -400px;
+  top: -420px;
   left: -20px;
   font-size: 100px;
 }
 
 .about-text{
   position: relative;
-  top: -400px;
+  top: -420px;
   left: -20px;
   font-size: 20px;
+}
+
+.icons{
+  position: relative;
+  text-align: center;
+  top: -300px;
+  font-size: 8rem
 }
 
 /* CONTACT */
