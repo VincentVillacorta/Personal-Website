@@ -1,27 +1,18 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  background-image: linear-gradient(to bottom right, #23344f, #5278a8,#283c5c);
+}
 
 @keyframes FadeIn {
-      0% {
-        opacity: 0;
-      }
-
-      100% {
-        opacity: 1;
-      }
-
+      0% {opacity: 0;}
+      100% {opacity: 1;}
 }
 
 @keyframes hide {
-      0% {
-        opacity: 0;
-      }
-
-      100% {
-        opacity: 0;
-      }
-
+      0% {opacity: 0;}
+      100% {opacity: 0;}
 }
 
 @keyframes typing {
@@ -31,33 +22,32 @@ html {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: black; }
+  50% { border-color: white; }
 }
 /* NAVBAR */
 .container-fluid {
   font-family: 'Open Sans', sans-serif;
-  color: white;
 }
 
 .navbar-nav > li{
   padding-left:10px;
   padding-right:10px;
 }
+.navbar-inner {
+    background:transparent;
+}
 /* HOME */
 
 #home {
-  padding-top: 250px;
-  padding-bottom: 360px;
+  padding-top: 300px;
+  padding-bottom: 300px;
 }
 
 .animated-name h1{
   font-size: 110px;
+  color: white;
   text-align: center;
-  text-align-last: center;
   font-family: Brush Script MT, Brush Script Std, cursive;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 50px;
   animation-name: FadeIn;
   animation-duration: 1s;
 }
@@ -66,9 +56,10 @@ html {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  display: inline-block;
+  color: white;
   font-size: 20px;
   font-family: monaco, Consolas, "Lucida Console", monospace;
+  /*carat/typing animation*/
   width: auto;
   overflow: hidden;
   border-right: .15em solid black;
@@ -81,46 +72,54 @@ html {
 }
 /* ABOUT */
 #about {
-  padding-top: 300px;
-  padding-bottom: -40px;
+  padding-top: 240px;
+  padding-bottom: 200px;
+  color: white;
 }
-img {
+.image-card{
+  background-color: transparent;
+  border-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  width: 300px;
+}
+.image-card img{
   position: relative;
-  top: -210px;
-  left: 30px;
-  max-width:300px;
+  width:300px;
   height:auto;
 }
-.col-lg-8 h2{
+.about-card{
+  background-color: transparent;
+  border-color: transparent;
+  display:flex;
+  min-width: 200px;
+}
+.about-card h2{
   position: relative;
-  top: -420px;
-  left: -20px;
-  font-size: 100px;
+  font-size: 80px;
 }
 
-.about-text{
+.about-card p{
   position: relative;
-  top: -420px;
-  left: -20px;
   font-size: 20px;
 }
 
-.icons{
-  position: relative;
-  text-align: center;
-  top: -300px;
-  font-size: 8rem
+.icons-card{
+  margin-top: 20px;
+  background-color: transparent;
+  border-color: gray;
+  font-size: 6rem;
 }
-
 /* CONTACT */
-.col-lg-8 h3{
-  position: relative;
-  top: -30px;
-  left: -360px;
-  font-size: 50px;
-}
 #contact {
   padding-top: 50px;
   padding-bottom: 50px;
   color: white;
+}
+
+.contact-box h3{
+  position: relative;
+  justify: center;
+  justify-content: center;
 }
