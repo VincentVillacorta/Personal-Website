@@ -1,10 +1,14 @@
+
 html {
   scroll-behavior: smooth;
+
+  background: #853e3e;
 }
 body {
   /*background-image: linear-gradient(to bottom right, #23344f, #5278a8,#283c5c);*/
   background: white;
 }
+
 
 @keyframes FadeInAndOut {
       0% {opacity: 0;}
@@ -22,7 +26,7 @@ body {
 
 #intro-section{
  position: relative;
- background: gray;
+ background: #2f384d;
  width: 100%;
  height: 100vh;
  float:left;
@@ -43,26 +47,24 @@ body {
   animation-fill-mode: forwards;
 }
 
-.animated-name p{
+#target, #cursor{
+  justify-content: center;
   font-size: 30px;
   color: white;
-  font-family: Arial;
-  animation-name: FadeInAndOutLate;
-  animation-duration: 3s;
-  animation-fill-mode: forwards;
 }
 
 #main-section{
   position:absolute;
   background: #853e3e;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   z-index: -1;
 }
 
 .navbar{
-  background-color: gray;
+  background-color: #2f384d;
   text-align: center;
+
 }
 
 .navbar-brand{
@@ -77,28 +79,42 @@ body {
   width: 100%;
 }
 
-.jumbotron{
-  background: beige !important;
-  height: 60vh;
+.col-txt{
   margin-top: 30px;
   margin-left: 30px;
   margin-bottom: 30px;
 }
 
+.jumbotron{
+  background: beige !important;
+  box-shadow: 10px 10px;
+  min-height: 70vh;
+}
+
 .card{
   background-color: #827070 !important;
-  height: 20vh;
+  box-shadow: 10px 10px;
   width: 100%;
-  margin-left: 45px;
-  margin-right: 15px;
-  margin-top: 15px;
+  margin-top: 30px;
 }
 
-.card img{
+.btn-group{
+}
+
+.btn-group img{
+  background-color: transparent;
   height: auto;
-  width: 20%;
+  width: 60%;
+  padding: 5%;
+  max-width: 100px;
+  max-height: 100px;
 }
 
-.link-col{
-  text-align: center;
+
+
+.col-animated img{
+  height: auto;
+  width: 100%;
+  min-width:450px;
+  float: right;
 }
