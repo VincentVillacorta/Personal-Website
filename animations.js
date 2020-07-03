@@ -11,6 +11,11 @@ $(document).ready(function(){
     pause: 500
   });
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
+
 (function ($) {
 
   function typeString($target, str, cursor, delay, cb) {
