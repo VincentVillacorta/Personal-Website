@@ -1,8 +1,7 @@
 
 html {
   scroll-behavior: smooth;
-  background-image: url("./images/background.png");
-  background-color: white;
+  background-image: url("images/background.png");
 }
 body {
   /*background-image: linear-gradient(to bottom right, #23344f, #5278a8,#283c5c);*/
