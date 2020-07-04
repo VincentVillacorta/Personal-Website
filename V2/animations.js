@@ -7,13 +7,13 @@ $( document ).ready(function() {
 function aboutMe(){
   if(counter == 0){
     $(".text-box p1").fadeOut(function() {
-        $(".text-box p1").html("I am searching for my first software development role.").fadeIn();
+        $(".text-box p1").html("I am seeking for my first software development role.").fadeIn();
     });
     counter = 1;
   }
   else if(counter == 1){
     $(".text-box p1").fadeOut(function() {
-        $(".text-box p1").html("Contact me through the links below!").fadeIn();
+        $(".text-box p1").html("Feel free to contact me through the links below!").fadeIn();
     });
     counter = 2;
   }

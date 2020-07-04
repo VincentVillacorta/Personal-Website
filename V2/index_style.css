@@ -1,18 +1,32 @@
 html {
   display: block;
   vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  min-height: 560px;
+}
+
+body{
+  min-height: 560px;
+  clear:both;
 }
 
 
 #particles-js {
   position: absolute;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
   width: 100%;
   height: 100%;
 }
 
 #fadeOut{
-opacity:0;
-transition:1s;
+  opacity:0;
+  transition:1s;
 }
 
 #fadeIn{
@@ -22,7 +36,7 @@ transition:1s;
 
 .content {
   display: none;
-	position: absolute;
+  position: absolute;
 	top: 40%;
 	right: 50%;
 	transform: translate(50%,-50%);
@@ -30,29 +44,38 @@ transition:1s;
   font-size: 30px;
 	font-family: 'Open Sans', sans-serif;
   text-align: center;
+  width:auto;
 }
 
+
 .menu{
+  text-align: center;
+  position: absolute;
+  transform: translate(50%);
+	bottom: 0px;
+	right: 50vw;
   padding: 40px;
+  min-width: 250px;
 }
 
 .btn {
-    display:inline-block;
-    margin-left: 10px;
-    margin-right: 10px;
-    width:50px;
-    height:50px;
-    border-radius: 50%;
-    text-decoration:none;
-    background: black;
-    box-shadow: 0 0 3px gray;
-
-    background-size: contain;
-    background-position: center;
-    background-size: 80%;
+  display:inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background: black;
+  box-shadow: 0 0 3px gray;
+  background-size: contain;
+  background-position: center;
+  background-size: 80%;
 }
+
 .btn:hover {
-    opacity: 0.5;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .aboutme-btn{
