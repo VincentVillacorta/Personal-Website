@@ -1,5 +1,9 @@
 var counter = 0;
 
+$( document ).ready(function() {
+    $(".content").fadeIn(1000);
+});
+
 function aboutMe(){
   if(counter == 0){
     $(".text-box p1").fadeOut(function() {

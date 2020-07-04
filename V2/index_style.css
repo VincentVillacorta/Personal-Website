@@ -3,6 +3,7 @@ html {
   vertical-align: bottom;
 }
 
+
 #particles-js {
   position: absolute;
   width: 100%;
@@ -20,6 +21,7 @@ transition:1s;
 }
 
 .content {
+  display: none;
 	position: absolute;
 	top: 40%;
 	right: 50%;
